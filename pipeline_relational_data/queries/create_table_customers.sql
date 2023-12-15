@@ -1,0 +1,22 @@
+USE ORDERS_RELATIONAL_DB;
+
+DROP TABLE IF EXISTS Customers;
+
+CREATE TABLE Customers (
+
+CustomerID VARCHAR(100) PRIMARY KEY NOT NULL,
+CompanyName VARCHAR (100),
+ContactName VARCHAR (100),
+ContactTitle VARCHAR (30),
+Address VARCHAR (100),
+City VARCHAR (50),
+Region VARCHAR (50),
+PostalCode VARCHAR (50),
+Country VARCHAR (50),
+Phone VARCHAR (50),
+Fax VARCHAR (50)
+
+);
+
+
+

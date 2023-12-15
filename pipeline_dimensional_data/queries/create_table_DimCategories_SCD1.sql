@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS DimCategories_SCD1
+
+
+USE ORDERS_DIMENSIONAL_DB;
+
+CREATE TABLE DimCategories_SCD1 (
+    CategoryID_PK_SK INT PRIMARY KEY IDENTITY(1, 1),
+    CategoryID_NK INT,
+    CategoryName NVARCHAR(255) NOT NULL,
+    Description VARCHAR(500) NULL,
+);
+

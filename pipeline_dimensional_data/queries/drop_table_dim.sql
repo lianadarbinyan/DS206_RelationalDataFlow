@@ -1,0 +1,3 @@
+USE ORDERS_RELATIONAL_DB;
+
+DROP TABLE IF EXISTS  {db}.{schema}.{table} ;
